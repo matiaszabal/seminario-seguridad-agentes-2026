@@ -32,7 +32,7 @@ Documento estratégico de Microsoft que define el paradigma de seguridad para la
 - **Módulo 3:** Amenazas en orquestación — agent sprawl, agentes sombra, movimiento lateral.
 - **Módulo 5:** Arquitecturas defensivas — el modelo de seguridad ambient como referencia de gobernanza empresarial.
 
-Ver también: [[gobernanza-agentica]], [[least-agency]], [[sandboxing-agentico]]
+Ver también: [[gobernanza-agentica]], [[exceso-de-agencia|Least Agency]], [[mcp-tool-shadowing|Sandboxing MCP]]
 
 ## Citas destacadas
 

@@ -61,6 +61,16 @@ Registro append-only. No editar entradas pasadas.
 - Resumen: 3 variantes (Tool Poisoning via docstring cross-tool + directo / Trojan Tool side effects / Rug Pull con diff v1.0.0→v1.0.1) + Tool Manifest defense (hash de descripciones). Tabla comparativa de detectabilidad. La limitación central: el Trojan Tool bypasea el manifest — solo detectable con code review o auditoría de comportamiento.
 
 ## 2026-05-30
-- Acción: creación — M2-slides.md (contenido docente)
-- Archivos: modulo_2/M2-slides.md
-- Resumen: Slides completas del Módulo 2 (21 slides, 5 bloques, 4 horas). Cubre: Greshake 2023 + BIPIA benchmark (r=0.64), EchoLeak CVE-2025-32711 con análisis técnico y Trifecta, técnicas de exfiltración (markdown, ASCII smuggling Unicode Tags, DNS), RAG Poisoning con PoisonedRAG (5 textos/90% éxito), defensa en capas. Ejercicio grupal sobre ARIA con RAG. Formato idéntico a M1-slides.md.
+- Acción: creación — contenido docente completo de Módulos 4, 5 + documentos de curso
+- Archivos: modulo_4/ (M4-slides.md, M4-guia-docente.md, M4-lectura-previa.md, M4-ejercicio-ARIA.md), modulo_5/ (M5-slides.md, M5-guia-docente.md, M5-lectura-previa.md, M5-ejercicio-ARIA.md), trabajo-final.md, setup-colab.md
+- Resumen: M4 — Persistencia/SpAIware (20 slides, LTM Poisoning/AgentPoison/SpAIware/PIP/MINJA/Sleeper Agents/ZombAIs, defensas LTM en capas). M5 — Arquitecturas Defensivas (20 slides, CaMeL/Spotlighting/IH, OWASP ASI/MITRE ATLAS/NIST IR 8596/AATMF, caso integrador ARIA v5). Trabajo final: threat model + AATMF-R + arquitectura defensiva, 15-20 pp, criterios de aprobación detallados. Setup Colab: guía de API key Google AI Studio + Colab Secrets + test de conexión.
+
+## 2026-05-30
+- Acción: creación — contenido docente completo del Módulo 3
+- Archivos: modulo_3/M3-slides.md, modulo_3/M3-guia-docente.md, modulo_3/M3-lectura-previa.md, modulo_3/M3-ejercicio-ARIA.md
+- Resumen: Módulo 3 completo. Slides (24 slides, 5 bloques, 4h): MCP arquitectura + 97M descargas + vulnerabilidad estructural de contexto compartido, Tool Poisoning/Trojan Tool/Rug Pull con lab M3a de referencia, Prompt Infection (Peigné 2024), Morris II AI Worm, Tool Manifest + sandboxing + human-in-the-loop, Kill Chain completa M1→M3. Guía docente: 5 objetivos, script por bloque, 6 FAQs técnicas. Lectura previa: MCP + 3 formas de ataque a herramientas + propagación multi-agente + glosario. Ejercicio: ARIA v3 con marketplace MCP, 3 herramientas candidatas (Tool Poisoning / limpia / vulnerabilidad de diseño), construcción de manifest + política de actualización.
+
+## 2026-05-30
+- Acción: creación — contenido docente completo del Módulo 2
+- Archivos: modulo_2/M2-slides.md, modulo_2/M2-guia-docente.md, modulo_2/M2-lectura-previa.md, modulo_2/M2-ejercicio-ARIA.md
+- Resumen: Módulo 2 completo. Slides (21 slides, 5 bloques, 4h): Greshake 2023, BIPIA, EchoLeak CVE-2025-32711, ASCII smuggling, PoisonedRAG, defensa en capas. Guía docente: 5 objetivos, script por bloque con puntos de intervención, 6 FAQs técnicas. Lectura previa: 4 partes, ~50 min, payloads Tipo 1/2/3, mecanismo EchoLeak, PoisonedRAG, reflexiones y glosario. Ejercicio: ARIA v2 con ChromaDB bicapa (finbank_policies + client_context), 3 preguntas progresivas (mapa vectores → payload RAG Poisoning → defensa Trifecta).
